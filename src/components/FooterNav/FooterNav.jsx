@@ -8,12 +8,12 @@ export const FooterNav = () => {
           <a href="/">Início</a>
         </div>
         <div className="footer__nav-item">
-          <a href="https://pwvintage.iwebgm.com.br/" target="_blank">
+          <a href="#" target="_blank">
             Painel Jogador
           </a>
         </div>
         <div className="footer__nav-item">
-          <Link to="/download">Download</Link>
+          <Link to="#">Download</Link>
         </div>
         <div className="footer__nav-item">
           <Link to="/sobre">Sobre o Servidor</Link>

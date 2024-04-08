@@ -63,150 +63,26 @@ export const Header = () => {
           <div className="nav__links flex-sbc">
             <div className="nav__links-group flex-sc">
               <div className="nav__links-item">
-                <a
-                  href="/"
-                  onClick={() => {
-                    window.fbq(
-                      "trackSingle",
-                      "1523431241831780",
-                      "Click Início"
-                    );
-                    window.fbq(
-                      "trackSingle",
-                      "378152504756865",
-                      "Click Início"
-                    );
-                    window.fbq(
-                      "trackSingle",
-                      "998372564713596",
-                      "Click Início"
-                    );
-                  }}
-                >
-                  Início
-                </a>
+                <a href="/">Início</a>
               </div>
               <div className="nav__links-item">
-                <Link
-                  to="/sobre"
-                  onClick={() => {
-                    window.fbq(
-                      "trackSingle",
-                      "1523431241831780",
-                      "Página Sobre"
-                    );
-                    window.fbq(
-                      "trackSingle",
-                      "378152504756865",
-                      "Página Sobre"
-                    );
-                    window.fbq(
-                      "trackSingle",
-                      "998372564713596",
-                      "Página Sobre"
-                    );
-                  }}
-                >
-                  Sobre Servidor
-                </Link>
+                <Link to="/sobre">Sobre Servidor</Link>
               </div>
               <div className="nav__links-item">
-                <Link
-                  to="/download"
-                  onClick={() => {
-                    window.fbq(
-                      "trackSingle",
-                      "1523431241831780",
-                      "Página Download"
-                    );
-                    window.fbq(
-                      "trackSingle",
-                      "378152504756865",
-                      "Página Download"
-                    );
-                    window.fbq(
-                      "trackSingle",
-                      "998372564713596",
-                      "Página Download"
-                    );
-                  }}
-                >
-                  Download
-                </Link>
+                <Link to="#">Download</Link>
               </div>
             </div>
             <div className="nav__links-group flex-sc">
               <div className="nav__links-item">
-                <Link
-                  to="/rank"
-                  onClick={() => {
-                    window.fbq(
-                      "trackSingle",
-                      "1523431241831780",
-                      "Página Ranking"
-                    );
-                    window.fbq(
-                      "trackSingle",
-                      "378152504756865",
-                      "Página Ranking"
-                    );
-                    window.fbq(
-                      "trackSingle",
-                      "998372564713596",
-                      "Página Ranking"
-                    );
-                  }}
-                >
-                  Ranking
-                </Link>
+                <Link to="#">Ranking</Link>
               </div>
               <div className="nav__links-item">
-                <a
-                  href="https://discord.gg/ym3FtVyZBx"
-                  target="_blank"
-                  onClick={() => {
-                    window.fbq(
-                      "trackSingle",
-                      "1523431241831780",
-                      "Discord NavBar"
-                    );
-                    window.fbq(
-                      "trackSingle",
-                      "378152504756865",
-                      "Discord NarBar"
-                    );
-                    window.fbq(
-                      "trackSingle",
-                      "998372564713596",
-                      "Discord NarBar"
-                    );
-                  }}
-                >
+                <a href="https://discord.gg/5YrsstYbq5" target="_blank">
                   Discord
                 </a>
               </div>
               <div className="nav__links-item">
-                <a
-                  href="https://pwvintage.iwebgm.com.br/"
-                  target="_blank"
-                  onClick={() => {
-                    window.fbq(
-                      "trackSingle",
-                      "1523431241831780",
-                      "Painel Jogador NavBar"
-                    );
-                    window.fbq(
-                      "trackSingle",
-                      "378152504756865",
-                      "Painel Jogador NavBar"
-                    );
-                    window.fbq(
-                      "trackSingle",
-                      "998372564713596",
-                      "Painel Jogador NavBar"
-                    );
-                  }}
-                >
+                <a href="#" target="_blank">
                   Painel Jogador
                 </a>
               </div>
@@ -255,28 +131,7 @@ export const Header = () => {
                 <span style={{ color: "red" }}>Offline</span>
               )} */}
             </div>
-            <a
-              href="https://pwvintage.iwebgm.com.br/cadastro"
-              className="header__button flex-cc"
-              target="_blank"
-              onClick={() => {
-                window.fbq(
-                  "trackSingle",
-                  "1523431241831780",
-                  "Cadastrar Banner"
-                );
-                window.fbq(
-                  "trackSingle",
-                  "378152504756865",
-                  "Cadastrar Banner"
-                );
-                window.fbq(
-                  "trackSingle",
-                  "998372564713596",
-                  "Cadastrar Banner"
-                );
-              }}
-            >
+            <a href="#" className="header__button flex-cc" target="_blank">
               <span>CADASTRAR</span>
             </a>
           </div>

@@ -26,7 +26,7 @@ const Download = () => {
                   Para entrar no jogo você precisa registrar uma conta no jogo.
                 </div>
                 <a
-                  href="https://pwvintage.iwebgm.com.br/cadastro"
+                  href="#"
                   className="light-button red flex-cc create-account"
                   target="_blank"
                 >

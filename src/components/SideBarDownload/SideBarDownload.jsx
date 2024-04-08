@@ -7,7 +7,7 @@ export const SideBarDownload = () => {
         <span>Download</span>
       </div>
       <div className="promo__text">Faça Download do Game e venha curtir.</div>
-      <Link to="/download" className="promo__button flex-cc">
+      <Link to="#" className="promo__button flex-cc">
         <span>Baixar Agora</span>
       </Link>
     </div>

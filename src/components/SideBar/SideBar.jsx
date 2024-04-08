@@ -5,14 +5,10 @@ export const SideBar = () => {
         <span>FAZER DONATE</span>
       </div>
       <div className="promo__text">
-        Coloque Gold ajude a sustentar o servidor e compre itens incríveis em
-        nossa loja game.
+        Contribua para o crescimento do servidor fazendo sua doação. Em troca
+        receberá gold para compra de itens incríveis.
       </div>
-      <a
-        href="https://pwvintage.iwebgm.com.br/nova-doacao/"
-        className="promo__button flex-cc"
-        target="_blank"
-      >
+      <a href="#" className="promo__button flex-cc" target="_blank">
         <span>Fazer Agora</span>
       </a>
     </div>

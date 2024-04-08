@@ -13,11 +13,12 @@ const Sobre = () => {
                 <p>SOBRE O SERVIDOR</p>
                 <img src={sobre} alt />
                 <span>
-                  Saiba sobre Rate, eventos e Sets - 6 Raças - 12 Classes - Lv.
-                  Máximo 105
+                  3 Raças - 6 Classes - Lv. Máximo 105 - Equipamentos Mold e
+                  Dusk
                 </span>
+                <p>Em breve mais informações</p>
               </div>
-              <div className="htc-block htc-1">
+              {/* <div className="htc-block htc-1">
                 <div className="htc-block__title flex-cc">
                   <div className="htc-block__title-step flex-cc">Rate</div>
                   <div className="htc-block__title-text">Rate do Servidor</div>
@@ -72,7 +73,7 @@ const Sobre = () => {
                     <p>R8 UP2</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>

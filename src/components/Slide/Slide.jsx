@@ -12,28 +12,16 @@ export const Slide = () => {
               <img src={one} alt />
               <div className="slider__content-info">
                 <div className="slider__content-title">
-                  Lançamento Beta 27/10/2023 19:00 Horas.
+                  Lançamento entre Julho/Agosto
                 </div>
                 <div className="slider__content-text">
-                  Periodo Beta de 10 dias valendo prêmios na inauguração
-                  oficial. Confira as regras e detalhes no Discord
+                  Contribuia com o servidor dando sua sugestão. Acesse o
+                  discord.
                 </div>
                 <Link
-                  to="https://discord.gg/h6mT4SWBab"
+                  to="https://discord.gg/5YrsstYbq5"
                   className="slider__content-button flex-cc"
                   target="_blank"
-                  onClick={() => {
-                    window.fbq(
-                      "trackSingle",
-                      "1523431241831780",
-                      "Discord Slide 1"
-                    );
-                    window.fbq(
-                      "trackSingle",
-                      "378152504756865",
-                      "Discord Slide 1"
-                    );
-                  }}
                 >
                   Acessar Discord
                 </Link>
@@ -51,21 +39,9 @@ export const Slide = () => {
                   e muito mais. Acesse Agora!
                 </div>
                 <Link
-                  to="https://discord.gg/h6mT4SWBab"
+                  to="https://discord.gg/5YrsstYbq5"
                   className="slider__content-button flex-cc"
                   target="_blank"
-                  onClick={() => {
-                    window.fbq(
-                      "trackSingle",
-                      "1523431241831780",
-                      "Discord Slide 2"
-                    );
-                    window.fbq(
-                      "trackSingle",
-                      "378152504756865",
-                      "Discord Slide 2"
-                    );
-                  }}
                 >
                   Acessar Discord
                 </Link>

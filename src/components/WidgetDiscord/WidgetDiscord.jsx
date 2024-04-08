@@ -2,11 +2,11 @@ export const WidgetDiscord = () => {
   return (
     <div className="promo flex-ss">
       <iframe
-        title="Discord"
-        src="https://discord.com/widget?id=1152038186894237740&theme=dark"
+        src="https://discord.com/widget?id=1227017713008902174&theme=dark"
         width="350"
         height="500"
         allowtransparency="true"
+        frameborder="0"
         sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
       ></iframe>
     </div>

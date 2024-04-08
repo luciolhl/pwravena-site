@@ -10,7 +10,7 @@ export const Article = () => {
           <img src={news_1} alt className="home-articles__item-img" />
           <div className="home-articles__item-content">
             <div className="home-articles__item-title">
-              <a href="https://discord.gg/EMta22uSf3" target="_blank">
+              <a href="https://discord.gg/5YrsstYbq5" target="_blank">
                 Programa de referência
               </a>
             </div>
@@ -19,7 +19,7 @@ export const Article = () => {
               bônus.
             </div>
             <a
-              href="https://discord.gg/EMta22uSf3"
+              href="https://discord.gg/5YrsstYbq5"
               className="home-articles__item-button flex-cc"
               target="_blank"
             >
@@ -31,7 +31,7 @@ export const Article = () => {
           <img src={news_2} alt className="home-articles__item-img" />
           <div className="home-articles__item-content">
             <div className="home-articles__item-title">
-              <a href="https://discord.gg/EMta22uSf3" target="_blank">
+              <a href="https://discord.gg/5YrsstYbq5" target="_blank">
                 Programa de Streams
               </a>
             </div>
@@ -40,7 +40,7 @@ export const Article = () => {
               de Parcerias.
             </div>
             <a
-              href="https://discord.gg/EMta22uSf3"
+              href="https://discord.gg/5YrsstYbq5"
               className="home-articles__item-button flex-cc"
               target="_blank"
             >
@@ -52,7 +52,7 @@ export const Article = () => {
           <img src={news_3} alt className="home-articles__item-img" />
           <div className="home-articles__item-content">
             <div className="home-articles__item-title">
-              <a href="https://discord.gg/EMta22uSf3" target="_blank">
+              <a href="https://discord.gg/5YrsstYbq5" target="_blank">
                 Sistema de reembolso
               </a>
             </div>
@@ -64,7 +64,7 @@ export const Article = () => {
               descrição reembolso para guildas.
             </div>
             <a
-              href="https://discord.gg/EMta22uSf3"
+              href="https://discord.gg/5YrsstYbq5"
               className="home-articles__item-button flex-cc"
               target="_blank"
             >
@@ -74,7 +74,7 @@ export const Article = () => {
         </article>
       </div>
       <a
-        href="https://discord.gg/EMta22uSf3"
+        href="https://discord.gg/5YrsstYbq5"
         className="home-articles__more flex-cc"
         target="_blank"
       >
