@@ -19,7 +19,7 @@ export const Slide = () => {
                   discord.
                 </div>
                 <Link
-                  to="https://discord.gg/5YrsstYbq5"
+                  to="https://discord.gg/UfCpqnzUrU"
                   className="slider__content-button flex-cc"
                   target="_blank"
                 >
@@ -39,7 +39,7 @@ export const Slide = () => {
                   e muito mais. Acesse Agora!
                 </div>
                 <Link
-                  to="https://discord.gg/5YrsstYbq5"
+                  to="https://discord.gg/UfCpqnzUrU"
                   className="slider__content-button flex-cc"
                   target="_blank"
                 >

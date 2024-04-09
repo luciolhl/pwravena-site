@@ -31,7 +31,7 @@ export const Footer = () => {
               </p>
               <p>
                 Serviço de suporte:
-                <a href="https://discord.gg/5YrsstYbq5" target="_blank">
+                <a href="https://discord.gg/UfCpqnzUrU" target="_blank">
                   <font color="#67645d">
                     <span
                       className="__cf_email__"

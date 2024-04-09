@@ -22,12 +22,18 @@ export const FooterNav = () => {
 
       <div className="footer__nav">
         <div className="footer__nav-item">
-          <a href=" https://www.facebook.com/pwvintage" target="_blank">
+          <a
+            href=" https://www.facebook.com/perfectworldvintage"
+            target="_blank"
+          >
             Facebook
           </a>
         </div>
         <div className="footer__nav-item">
-          <a href="https://www.instagram.com/pwvintage" target="_blank">
+          <a
+            href="https://www.instagram.com/perfectworldvintage"
+            target="_blank"
+          >
             Instagram
           </a>
         </div>

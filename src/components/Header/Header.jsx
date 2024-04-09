@@ -77,7 +77,7 @@ export const Header = () => {
                 <Link to="#">Ranking</Link>
               </div>
               <div className="nav__links-item">
-                <a href="https://discord.gg/5YrsstYbq5" target="_blank">
+                <a href="https://discord.gg/UfCpqnzUrU" target="_blank">
                   Discord
                 </a>
               </div>
@@ -94,11 +94,7 @@ export const Header = () => {
       <header className="header">
         <div className="content-area flex-ss">
           <div className="header__col flex-cc">
-            <a
-              href="https://pwvintage.iwebgm.com.br/cadastro"
-              className="header__logo"
-              target="_blank"
-            >
+            <a href="#" className="header__logo" target="_blank">
               <img src={logo} alt="PW Vintage" />
             </a>
             {/* <div className="header__accounts">
