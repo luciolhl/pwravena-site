@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import one from "../../assets/images/1.jpg";
 import two from "../../assets/images/2.jpg";
+import { Routes } from "../../utils/Routes";
 
 export const Slide = () => {
   return (
@@ -19,7 +20,7 @@ export const Slide = () => {
                   discord.
                 </div>
                 <Link
-                  to="https://discord.gg/UfCpqnzUrU"
+                  to={Routes.discord}
                   className="slider__content-button flex-cc"
                   target="_blank"
                 >
@@ -39,7 +40,7 @@ export const Slide = () => {
                   e muito mais. Acesse Agora!
                 </div>
                 <Link
-                  to="https://discord.gg/UfCpqnzUrU"
+                  to={Routes.discord}
                   className="slider__content-button flex-cc"
                   target="_blank"
                 >

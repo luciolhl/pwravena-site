@@ -1,6 +1,7 @@
 import news_1 from "../../assets/images/news_1.jpg";
 import news_2 from "../../assets/images/news_2.jpg";
 import news_3 from "../../assets/images/news_3.jpg";
+import { Routes } from "../../utils/Routes";
 
 export const Article = () => {
   return (
@@ -10,7 +11,7 @@ export const Article = () => {
           <img src={news_1} alt className="home-articles__item-img" />
           <div className="home-articles__item-content">
             <div className="home-articles__item-title">
-              <a href="https://discord.gg/UfCpqnzUrU" target="_blank">
+              <a href={Routes.discord} target="_blank">
                 Programa de referência
               </a>
             </div>
@@ -19,7 +20,7 @@ export const Article = () => {
               bônus.
             </div>
             <a
-              href="https://discord.gg/UfCpqnzUrU"
+              href={Routes.discord}
               className="home-articles__item-button flex-cc"
               target="_blank"
             >
@@ -31,7 +32,7 @@ export const Article = () => {
           <img src={news_2} alt className="home-articles__item-img" />
           <div className="home-articles__item-content">
             <div className="home-articles__item-title">
-              <a href="https://discord.gg/UfCpqnzUrU" target="_blank">
+              <a href={Routes.discord} target="_blank">
                 Programa de Streams
               </a>
             </div>
@@ -40,7 +41,7 @@ export const Article = () => {
               de Parcerias.
             </div>
             <a
-              href="https://discord.gg/UfCpqnzUrU"
+              href={Routes.discord}
               className="home-articles__item-button flex-cc"
               target="_blank"
             >
@@ -52,7 +53,7 @@ export const Article = () => {
           <img src={news_3} alt className="home-articles__item-img" />
           <div className="home-articles__item-content">
             <div className="home-articles__item-title">
-              <a href="https://discord.gg/UfCpqnzUrU" target="_blank">
+              <a href={Routes.discord} target="_blank">
                 Sistema de reembolso
               </a>
             </div>
@@ -64,7 +65,7 @@ export const Article = () => {
               descrição reembolso para guildas.
             </div>
             <a
-              href="https://discord.gg/UfCpqnzUrU"
+              href={Routes.discord}
               className="home-articles__item-button flex-cc"
               target="_blank"
             >
@@ -74,7 +75,7 @@ export const Article = () => {
         </article>
       </div>
       <a
-        href="https://discord.gg/UfCpqnzUrU"
+        href={Routes.discord}
         className="home-articles__more flex-cc"
         target="_blank"
       >

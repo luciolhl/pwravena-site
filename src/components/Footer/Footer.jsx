@@ -1,6 +1,7 @@
 import React from "react";
 import footer_logo from "../../assets/images/footer_logo.png";
 import { FooterNav } from "../FooterNav/FooterNav";
+import { Routes } from "../../utils/Routes";
 
 export const Footer = () => {
   return (
@@ -12,7 +13,7 @@ export const Footer = () => {
           </div>
           <div className="footer__cpr-info">
             <div className="footer__cpr-title">
-              <a href="/">
+              <a href={Routes.home}>
                 Perfect World Vintage Clássico © {new Date().getFullYear()}
               </a>
             </div>
@@ -31,7 +32,7 @@ export const Footer = () => {
               </p>
               <p>
                 Serviço de suporte:
-                <a href="https://discord.gg/UfCpqnzUrU" target="_blank">
+                <a href={Routes.discord} target="_blank">
                   <font color="#67645d">
                     <span
                       className="__cf_email__"

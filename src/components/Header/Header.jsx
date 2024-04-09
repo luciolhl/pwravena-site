@@ -3,6 +3,7 @@ import sep_bg from "../../assets/images/sep_bg.png";
 import logo from "../../assets/images/logo.png";
 import { Link } from "react-router-dom";
 import api from "../../services/api";
+import { Routes } from "../../utils/Routes";
 
 export const Header = () => {
   const [statusServer, setStatusServer] = useState("");
@@ -63,26 +64,26 @@ export const Header = () => {
           <div className="nav__links flex-sbc">
             <div className="nav__links-group flex-sc">
               <div className="nav__links-item">
-                <a href="/">Início</a>
+                <a href={Routes.home}>Início</a>
               </div>
               <div className="nav__links-item">
-                <Link to="/sobre">Sobre Servidor</Link>
+                <Link to={Routes.sobre}>Sobre Servidor</Link>
               </div>
               <div className="nav__links-item">
-                <Link to="#">Download</Link>
+                <Link to={Routes.download}>Download</Link>
               </div>
             </div>
             <div className="nav__links-group flex-sc">
               <div className="nav__links-item">
-                <Link to="#">Ranking</Link>
+                <Link to={Routes.rank}>Ranking</Link>
               </div>
               <div className="nav__links-item">
-                <a href="https://discord.gg/UfCpqnzUrU" target="_blank">
+                <a href={Routes.discord} target="_blank">
                   Discord
                 </a>
               </div>
               <div className="nav__links-item">
-                <a href="#" target="_blank">
+                <a href={Routes.painel} target="_blank">
                   Painel Jogador
                 </a>
               </div>
@@ -94,7 +95,7 @@ export const Header = () => {
       <header className="header">
         <div className="content-area flex-ss">
           <div className="header__col flex-cc">
-            <a href="#" className="header__logo" target="_blank">
+            <a href={Routes.cadastro} className="header__logo" target="_blank">
               <img src={logo} alt="PW Vintage" />
             </a>
             {/* <div className="header__accounts">
@@ -127,7 +128,11 @@ export const Header = () => {
                 <span style={{ color: "red" }}>Offline</span>
               )} */}
             </div>
-            <a href="#" className="header__button flex-cc" target="_blank">
+            <a
+              href={Routes.cadastro}
+              className="header__button flex-cc"
+              target="_blank"
+            >
               <span>CADASTRAR</span>
             </a>
           </div>

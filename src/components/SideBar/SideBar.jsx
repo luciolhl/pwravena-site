@@ -1,3 +1,5 @@
+import { Routes } from "../../utils/Routes";
+
 export const SideBar = () => {
   return (
     <div className="promo flex-ss">
@@ -8,7 +10,7 @@ export const SideBar = () => {
         Contribua para o crescimento do servidor fazendo sua doação. Em troca
         receberá gold para compra de itens incríveis.
       </div>
-      <a href="#" className="promo__button flex-cc" target="_blank">
+      <a href={Routes.donate} className="promo__button flex-cc" target="_blank">
         <span>Fazer Agora</span>
       </a>
     </div>

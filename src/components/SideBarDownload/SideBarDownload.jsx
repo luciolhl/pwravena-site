@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Routes } from "../../utils/Routes";
 
 export const SideBarDownload = () => {
   return (
@@ -7,7 +8,7 @@ export const SideBarDownload = () => {
         <span>Download</span>
       </div>
       <div className="promo__text">Faça Download do Game e venha curtir.</div>
-      <Link to="#" className="promo__button flex-cc">
+      <Link to={Routes.download} className="promo__button flex-cc">
         <span>Baixar Agora</span>
       </Link>
     </div>
