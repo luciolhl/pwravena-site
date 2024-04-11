@@ -8,10 +8,9 @@ const Rank = () => {
 
   useEffect(() => {
     apiRanking
-      .get("?func=get-full-ranking")
+      .get("?function=get-full-ranking")
       .then((response) => {
-        console.log(response.data);
-        setDataRanking(response.data);
+        setDataRanking(response.data.retorno);
         setIsLoading(false);
       })
       .catch(() => {
@@ -43,8 +42,8 @@ const Rank = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      {dataRanking.data
-                        ? dataRanking.data.map((item, index) => {
+                      {dataRanking
+                        ? dataRanking.map((item, index) => {
                             return (
                               <tr key={index}>
                                 <td scope="row">{index + 1}</td>

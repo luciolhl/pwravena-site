@@ -2,7 +2,7 @@ export const Routes = {
     home: "/",
     sobre: "/sobre",
     download: "#",
-    rank: "#",
+    rank: "/rank",
     painel: "#",
     cadastro: "#",
     donate: "#",

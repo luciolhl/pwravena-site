@@ -1,10 +1,10 @@
 import axios from "axios";
 
 const apiRanking = axios.create({
-    baseURL: "https://server.pwvintage.com.br/api-ranking/index.php",
-    insecureHTTPParser: true,
+    baseURL: "http://192.168.1.9/api/index.php",
+    insecureHTTPParser: false,
     params: {
-        password: "P48AG4673eA41qWQeqe2YEDYJeteKKAtg"
+        token: "5mCjXZptT5fX4HdKwksjaiowlamso001823masd82kasd9al123"
     }
 })
 
