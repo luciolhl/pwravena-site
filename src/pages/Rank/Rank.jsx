@@ -1,4 +1,10 @@
 import sep_bg from "../../assets/images/sep_bg.png";
+import barbaro from "../../assets/classes/Barbaro.png";
+import feiticeira from "../../assets/classes/Feiticeira.png";
+import guerreiro from "../../assets/classes/Guerreiro.png";
+import mago from "../../assets/classes/Mago.png";
+import arqueiro from "../../assets/classes/Arqueiro.png";
+import sacerdote from "../../assets/classes/Sacerdote.png";
 import { useEffect, useState } from "react";
 import apiRanking from "../../services/apiRanking";
 
@@ -17,6 +23,25 @@ const Rank = () => {
         setDataRanking({});
       });
   }, []);
+
+  const imagemClasse = (classe) => {
+    switch (classe) {
+      case "Guerreiro":
+        return guerreiro;
+      case "Mago":
+        return mago;
+      case "Feiticeira":
+        return feiticeira;
+      case "Barbaro":
+        return barbaro;
+      case "Arqueiro":
+        return arqueiro;
+      case "Sacerdote":
+        return sacerdote;
+      default:
+        return "foo";
+    }
+  };
 
   return (
     <div>
@@ -49,7 +74,9 @@ const Rank = () => {
                                 <td scope="row">{index + 1}</td>
                                 <td>{item.KD}</td>
                                 <td>{item.nome}</td>
-                                <td>{item.classe}</td>
+                                <td>
+                                  <img src={imagemClasse(item.classe)} />
+                                </td>
                                 <td>{item.level}</td>
                                 <td>{item.cla}</td>
                                 <td>{item.qtdMatou}</td>
