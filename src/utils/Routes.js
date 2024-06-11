@@ -2,7 +2,7 @@ export const Routes = {
   home: "/",
   sobre: "/sobre",
   download: "#",
-  rank: "#",
+  rank: "/rank",
   painel: "https://painel.pwvintage.com/",
   cadastro: "https://painel.pwvintage.com/cadastro",
   donate: "https://painel.pwvintage.com/nova-doacao/",
