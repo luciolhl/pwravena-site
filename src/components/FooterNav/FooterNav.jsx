@@ -23,6 +23,11 @@ export const FooterNav = () => {
 
       <div className="footer__nav">
         <div className="footer__nav-item">
+          <a href={Routes.discord} target="_blank">
+            Discord
+          </a>
+        </div>
+        <div className="footer__nav-item">
           <a href={Routes.facebook} target="_blank">
             Facebook
           </a>

@@ -13,11 +13,10 @@ export const Slide = () => {
               <img src={one} alt />
               <div className="slider__content-info">
                 <div className="slider__content-title">
-                  Lançamento entre Julho/Agosto
+                  Lançamento oficial 05/07/2024
                 </div>
                 <div className="slider__content-text">
-                  Contribuia com o servidor dando sua sugestão. Acesse o
-                  discord.
+                  Fique atento as nossas atualizações. Participe do Discord.
                 </div>
                 <Link
                   to={Routes.discord}

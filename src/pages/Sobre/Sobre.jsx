@@ -1,6 +1,8 @@
-import sep_bg from "../../assets/images/sep_bg.png";
-import btn_download_light_icon from "../../assets/images/btn_download_light_icon.png";
 import sobre from "../../assets/images/SobreSV.png";
+import valefenixboss from "../../assets/images/farms/valefenixboss.jpg";
+import valefenixmobs from "../../assets/images/farms/valefenixmobs.jpg";
+import valeprimordial from "../../assets/images/farms/valeprimordial.jpg";
+import sep_bg from "../../assets/images/sep_bg.png";
 
 const Sobre = () => {
   return (
@@ -16,9 +18,9 @@ const Sobre = () => {
                   3 Raças - 6 Classes - Lv. Máximo 105 - Equipamentos Mold e
                   Dusk
                 </span>
-                <p>Em breve mais informações</p>
+                <p>Inicie nível 70, cultivo nirvana e skills upadas</p>
               </div>
-              {/* <div className="htc-block htc-1">
+              <div className="htc-block htc-1">
                 <div className="htc-block__title flex-cc">
                   <div className="htc-block__title-step flex-cc">Rate</div>
                   <div className="htc-block__title-text">Rate do Servidor</div>
@@ -32,19 +34,19 @@ const Sobre = () => {
                       RATE: Média alta
                     </div>
                     <div className="htc-block__system-box-line">
-                      <span>Experiência:</span> 12x;
+                      <span>Experiência:</span> 15x;
                     </div>
                     <div className="htc-block__system-box-line">
-                      <span>Alma:</span> 10x;
+                      <span>Alma:</span> 15x;
                     </div>
                     <div className="htc-block__system-box-line">
-                      <span>Item:</span> 1x;
+                      <span>Item:</span> 5x;
                     </div>
                     <div className="htc-block__system-box-line">
                       <span>Moedas:</span> 5x;
                     </div>
                     <div className="htc-block__system-box-line">
-                      <span>Quest Exp:</span> 4x;
+                      <span>Quest Exp:</span> 10x;
                     </div>
                     <div className="htc-block__system-box-line">
                       <span>Quest Alma:</span> 10x;
@@ -69,11 +71,44 @@ const Sobre = () => {
                     <p>SET 3 ESTRELAS</p>
                     <p>SET DUSK</p>
                     <p>SET MOLD</p>
-                    <p>SET NIRVANA</p>
-                    <p>R8 UP2</p>
                   </div>
                 </div>
-              </div> */}
+              </div>
+              <div className="htc-block htc-3">
+                <div className="htc-block__title flex-cc">
+                  <div className="htc-block__title-step flex-cc">Farms</div>
+                  <div className="htc-block__title-text">
+                    Farms Valê da Fênix
+                  </div>
+                </div>
+                <div className="htc-block__sep flex-cc">
+                  <img src={sep_bg} alt />
+                </div>
+                <div className="htc-block__text text-box">
+                  <div style={{ color: "purple", fontWeight: "700" }}>
+                    <p>XP</p>
+                    <p>Drops Boss</p>
+                    <img src={valefenixboss} style={{ width: "300px" }} />
+                    <p>Drops Mobs</p>
+                    <img src={valefenixmobs} style={{ width: "300px" }} />
+                  </div>
+                </div>
+                <div className="htc-block__title flex-cc">
+                  <div className="htc-block__title-text">
+                    Farms Valê Primordial
+                  </div>
+                </div>
+                <div className="htc-block__sep flex-cc">
+                  <img src={sep_bg} alt />
+                </div>
+                <div className="htc-block__text text-box">
+                  <div style={{ color: "purple", fontWeight: "700" }}>
+                    <p>XP</p>
+                    <p>Drops Boss</p>
+                    <img src={valeprimordial} style={{ width: "300px" }} />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
