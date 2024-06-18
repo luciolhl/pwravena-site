@@ -1,7 +1,7 @@
 export const Routes = {
   home: "/",
   sobre: "/sobre",
-  download: "#",
+  download: "/download",
   rank: "/rank",
   painel: "https://painel.pwvintage.com/",
   cadastro: "https://painel.pwvintage.com/cadastro",

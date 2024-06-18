@@ -1,5 +1,6 @@
 import sep_bg from "../../assets/images/sep_bg.png";
 import btn_download_light_icon from "../../assets/images/btn_download_light_icon.png";
+import { Routes } from "../../utils/Routes";
 
 const Download = () => {
   return (
@@ -26,7 +27,7 @@ const Download = () => {
                   Para entrar no jogo você precisa registrar uma conta no jogo.
                 </div>
                 <a
-                  href="#"
+                  href={Routes.cadastro}
                   className="light-button red flex-cc create-account"
                   target="_blank"
                 >
@@ -46,7 +47,7 @@ const Download = () => {
                 </div>
                 <div className="htc-block__buttons flex-cc">
                   <a
-                    href="https://drive.google.com/file/d/10F0CtLPpUvlQCxHHGTAqerp0kICIMPyD/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1Yke_XteBsu38F1xaw0wGHDBSIKGrdgbw/view?usp=sharing"
                     className="light-button blue flex-cc"
                     target="_blank"
                   >
@@ -54,7 +55,7 @@ const Download = () => {
                     <span>GOOGLE DRIVE 1</span>
                   </a>
                   <a
-                    href="https://drive.google.com/file/d/1zi1UY9zMSSrzoD8GR7vfCeaW_VBb2qqb/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1R-0wJBqB0yZ6sWX0KARHpjidFtY3dfJE/view?usp=sharing"
                     className="light-button blue flex-cc"
                     target="_blank"
                   >
