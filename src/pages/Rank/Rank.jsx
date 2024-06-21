@@ -8,7 +8,7 @@ const Rank = () => {
 
   useEffect(() => {
     apiRanking
-      .get("?func=get-full-ranking")
+      .get("?function=get-full-ranking")
       .then((response) => {
         console.log(response.data);
         setDataRanking(response.data);

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://server.pwvintage.com/api/api_users.php",
+  baseURL: "https://pwvintage.com/api/api_users.php",
   insecureHTTPParser: true,
 });
 

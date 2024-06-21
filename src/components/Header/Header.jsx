@@ -121,12 +121,12 @@ export const Header = () => {
               <img src={sep_bg} alt />
             </div>
             <div className="header_status_server">
-              Status Servidor: <span style={{ color: "red" }}>Em Breve</span>
-              {/* {statusServer == "Online" ? (
+              Status Servidor: <span style={{ color: "red" }}></span>
+              {statusServer == "Online" ? (
                 <span style={{ color: "green" }}>Online</span>
               ) : (
                 <span style={{ color: "red" }}>Offline</span>
-              )} */}
+              )}
             </div>
             <a
               href={Routes.cadastro}
