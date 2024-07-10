@@ -1,7 +1,4 @@
 import sobre from "../../assets/images/SobreSV.png";
-import valefenixboss from "../../assets/images/farms/valefenixboss.jpg";
-import valefenixmobs from "../../assets/images/farms/valefenixmobs.jpg";
-import valeprimordial from "../../assets/images/farms/valeprimordial.jpg";
 import sep_bg from "../../assets/images/sep_bg.png";
 
 const Sobre = () => {
@@ -81,31 +78,29 @@ const Sobre = () => {
                     Farms Valê da Fênix
                   </div>
                 </div>
-                <div className="htc-block__sep flex-cc">
-                  <img src={sep_bg} alt />
-                </div>
-                <div className="htc-block__text text-box">
-                  <div style={{ color: "purple", fontWeight: "700" }}>
-                    <p>XP</p>
-                    <p>Drops Boss</p>
-                    <img src={valefenixboss} style={{ width: "300px" }} />
-                    <p>Drops Mobs</p>
-                    <img src={valefenixmobs} style={{ width: "300px" }} />
-                  </div>
-                </div>
                 <div className="htc-block__title flex-cc">
                   <div className="htc-block__title-text">
                     Farms Valê Primordial
                   </div>
                 </div>
-                <div className="htc-block__sep flex-cc">
-                  <img src={sep_bg} alt />
+                <div className="htc-block__title flex-cc">
+                  <div className="htc-block__title-text">Frost</div>
                 </div>
-                <div className="htc-block__text text-box">
-                  <div style={{ color: "purple", fontWeight: "700" }}>
-                    <p>XP</p>
-                    <p>Drops Boss</p>
-                    <img src={valeprimordial} style={{ width: "300px" }} />
+                <div className="htc-block__title flex-cc">
+                  <div className="htc-block__title-text">DG 39</div>
+                </div>
+                <div className="htc-block__title flex-cc">
+                  <div className="htc-block__title-text">Diárias</div>
+                </div>
+                <div className="htc-block__title flex-cc">
+                  <div className="htc-block__title-text">Pedra Doida</div>
+                </div>
+                <div className="htc-block__title flex-cc">
+                  <div className="htc-block__title-text">Volta ao Mundo</div>
+                </div>
+                <div className="htc-block__title flex-cc">
+                  <div className="htc-block__title-text">
+                    Eventos: De Segunda a Sexta - 10:00 e 20:00
                   </div>
                 </div>
               </div>

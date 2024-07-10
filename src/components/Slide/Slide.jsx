@@ -13,10 +13,13 @@ export const Slide = () => {
               <img src={one} alt />
               <div className="slider__content-info">
                 <div className="slider__content-title">
-                  Lançamento oficial 05/07/2024
+                  Cadastre Baixe Agora
                 </div>
                 <div className="slider__content-text">
-                  Fique atento as nossas atualizações. Participe do Discord.
+                  Nosso servidor esta online, não perca tempo e venha participar
+                  da Nostalgia com uma Rate Media Alta. Participe da nossa
+                  comunidade no Discord para ficar por dentro de todas
+                  atualizações e novidades.
                 </div>
                 <Link
                   to={Routes.discord}
