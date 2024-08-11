@@ -98,7 +98,18 @@ export const Header = () => {
             <a href={Routes.cadastro} className="header__logo" target="_blank">
               <img src={logo} alt="PW Ravena" />
             </a>
-            {/* <div className="header__accounts">
+            <div className="header__accounts">
+              Status: <span style={{ color: "red" }}></span>
+              {statusServer == "Online" ? (
+                <span style={{ color: "green" }}>Online</span>
+              ) : (
+                <span style={{ color: "red" }}>Offline</span>
+              )}
+            </div>
+            <div className="header__sep flex-cc">
+              <img src={sep_bg} alt />
+            </div>
+            {/* <div className="header_status_server">
               Contas criadas:{" "}
               {qtdAccounts < 1 ? (
                 <span>Em Breve</span>
@@ -108,32 +119,17 @@ export const Header = () => {
             </div>
             <div className="header__sep flex-cc">
               <img src={sep_bg} alt />
-            </div> */}
-            {/* <div className="header__online">
+            </div>
+            <div className="header__online">
               Jogadores on-line:{" "}
-              {qtdOnline < 2 ? (
-                <span>Em Breve</span>
-              ) : (
-                <span>{qtdOnline}</span>
-              )}
+              {qtdOnline < 2 ? <span>Em Breve</span> : <span>{qtdOnline}</span>}
             </div> */}
-            <div className="header__sep flex-cc">
-              <img src={sep_bg} alt />
-            </div>
-            <div className="header_status_server">
-              Status Servidor: <span style={{ color: "red" }}></span>
-              {statusServer == "Online" ? (
-                <span style={{ color: "green" }}>Online</span>
-              ) : (
-                <span style={{ color: "red" }}>Offline</span>
-              )}
-            </div>
             <a
               href={Routes.cadastro}
               className="header__button flex-cc"
               target="_blank"
             >
-              <span>CADASTRAR</span>
+              {/* <span>CADASTRAR</span> */}
             </a>
           </div>
         </div>
