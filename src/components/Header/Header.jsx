@@ -96,7 +96,7 @@ export const Header = () => {
         <div className="content-area flex-ss">
           <div className="header__col flex-cc">
             <a href={Routes.cadastro} className="header__logo" target="_blank">
-              <img src={logo} alt="PW Vintage" />
+              <img src={logo} alt="PW Ravena" />
             </a>
             {/* <div className="header__accounts">
               Contas criadas:{" "}

@@ -16,7 +16,7 @@ export const Article = () => {
               </a>
             </div>
             <div className="home-articles__item-text">
-              Convide seus amigos e conhecidos para jogar em PW Vintage e ganhem
+              Convide seus amigos e conhecidos para jogar em PW Ravena e ganhem
               bônus.
             </div>
             <a

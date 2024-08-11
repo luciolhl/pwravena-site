@@ -12,7 +12,7 @@ const Home = () => {
         <div className="content-area flex-sbs">
           <main className="main">
             <Slide />
-            {/* <Article /> */}
+            <Article />
             <div
               style={{
                 textAalign: "center",
@@ -25,7 +25,7 @@ const Home = () => {
               }}
             >
               <span style={{ fontWeight: "bold" }}>
-                Bem-vindo ao PW Vintage: O Novo Horizonte de Perfect World!
+                Bem-vindo ao PW Ravena: O Novo Horizonte de Perfect World!
               </span>
               <p>
                 Você já se imaginou mergulhando em um mundo de aventuras, onde a
@@ -39,7 +39,7 @@ const Home = () => {
                 Um Novo Começo, Uma Nova Abordagem
               </span>
               <p>
-                No PW Vintage, acreditamos que todos os jogadores merecem uma
+                No PW Ravena, acreditamos que todos os jogadores merecem uma
                 chance justa e igual de prosperar. Nosso compromisso é oferecer
                 uma experiência de jogo imersiva e envolvente, sem as barreiras
                 injustas impostas por sistemas pay-to-win. Aqui, não importa se
@@ -51,7 +51,7 @@ const Home = () => {
               </span>
               <p>
                 Diferentemente de outros servidores, onde a busca pelo lucro
-                muitas vezes eclipsa a diversão do jogo, no PW Vintage,
+                muitas vezes eclipsa a diversão do jogo, no PW Ravena,
                 acreditamos em uma gestão transparente e voltada para a
                 comunidade. Nossa equipe dedicada está comprometida em criar um
                 ambiente onde a justiça prevaleça e onde cada jogador seja
@@ -62,15 +62,15 @@ const Home = () => {
                 Prepare-se para explorar um vasto mundo repleto de desafios
                 emocionantes e recompensas tentadoras. Desde batalhas épicas
                 contra criaturas lendárias até a busca por tesouros perdidos, há
-                sempre algo emocionante esperando por você no PW Vintage. Com
-                uma comunidade vibrante e acolhedora ao seu lado, cada jornada
-                se torna ainda mais memorável.
+                sempre algo emocionante esperando por você no PW Ravena. Com uma
+                comunidade vibrante e acolhedora ao seu lado, cada jornada se
+                torna ainda mais memorável.
               </p>
               <span style={{ fontWeight: "bold" }}>
                 Igualdade de Oportunidades
               </span>
               <p>
-                No PW Vintage, acreditamos que o verdadeiro poder reside na
+                No PW Ravena, acreditamos que o verdadeiro poder reside na
                 habilidade e na determinação de cada jogador. É por isso que
                 todos os itens e recompensas do jogo podem ser obtidos tanto
                 através do trabalho árduo e dedicação, quanto através de
@@ -80,14 +80,14 @@ const Home = () => {
               <span style={{ fontWeight: "bold" }}>Junte-se a Nós</span>
               <p>
                 Está pronto para embarcar em uma jornada verdadeiramente épica?
-                Venha se juntar a nós no PW Vintage, onde a igualdade, a justiça
+                Venha se juntar a nós no PW Ravena, onde a igualdade, a justiça
                 e a diversão são mais do que apenas palavras - são os pilares
                 que sustentam nossa comunidade. Não perca tempo, o mundo espera
                 por heróis como você!
               </p>
               <span style={{ fontWeight: "bold" }}>Conclusão</span>
               <p>
-                No PW Vintage, não se trata apenas de jogar um jogo, mas sim de
+                No PW Ravena, não se trata apenas de jogar um jogo, mas sim de
                 fazer parte de uma comunidade vibrante e acolhedora, onde todos
                 têm a oportunidade de brilhar. Não importa quem você é ou de
                 onde vem, aqui, você sempre será valorizado pelo seu talento e

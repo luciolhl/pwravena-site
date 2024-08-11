@@ -14,7 +14,7 @@ export const Footer = () => {
           <div className="footer__cpr-info">
             <div className="footer__cpr-title">
               <a href={Routes.home}>
-                Perfect World Vintage Clássico © {new Date().getFullYear()}
+                Perfect World Ravena Clássico © {new Date().getFullYear()}
               </a>
             </div>
             <div className="footer__cpr-text">
@@ -27,7 +27,7 @@ export const Footer = () => {
               <p>
                 O servidor é um servidor privado e foi criado para você se
                 familiarizar com o jogo "Perfect World" e se divertir no PW
-                Vintage, todos os direitos pertencem aos detentores dos direitos
+                Ravena, todos os direitos pertencem aos detentores dos direitos
                 autorais.
               </p>
               <p>
