@@ -12,12 +12,12 @@ export const Article = () => {
           <div className="home-articles__item-content">
             <div className="home-articles__item-title">
               <a href={Routes.discord} target="_blank">
-                Programa de referência
+                Diárias partir Nv.20
               </a>
             </div>
             <div className="home-articles__item-text">
-              Convide seus amigos e conhecidos para jogar em PW Ravena e ganhem
-              bônus.
+              Na CDD Oeste você encontrar um NPC para cumprir suas missões
+              diárias e ajudar no seu UP.
             </div>
             <a
               href={Routes.discord}
@@ -33,12 +33,12 @@ export const Article = () => {
           <div className="home-articles__item-content">
             <div className="home-articles__item-title">
               <a href={Routes.discord} target="_blank">
-                Programa de Streams
+                Venha ser um parceiro(a)
               </a>
             </div>
             <div className="home-articles__item-text">
-              Gravar vídeos ou transmitir ao vivo? Participe do nosso Programa
-              de Parcerias.
+              Sejá um parceiro(a) do servidor ajudando na divulgação e ganhando
+              diversas recompensas por isso.
             </div>
             <a
               href={Routes.discord}
@@ -54,15 +54,12 @@ export const Article = () => {
           <div className="home-articles__item-content">
             <div className="home-articles__item-title">
               <a href={Routes.discord} target="_blank">
-                Sistema de reembolso
+                Salário Marechal
               </a>
             </div>
             <div className="home-articles__item-text">
-              O sistema de cashback foi projetado para incentivar ativos
-              jogadores do projeto. Descrição detalhada dos bônus para
-              participantes dos Programas de Indicação e Afiliados está
-              estabelecido em tópicos relevantes, este tópico conterá uma
-              descrição reembolso para guildas.
+              Confira em nosso Discord as vantagens de trazer o seu clã e ser
+              beneficiado por isso.
             </div>
             <a
               href={Routes.discord}

@@ -17,16 +17,15 @@ export const Slide = () => {
                 </div>
                 <div className="slider__content-text">
                   Nosso servidor esta online, não perca tempo e venha participar
-                  da Nostalgia com uma Rate Media Alta. Participe da nossa
-                  comunidade no Discord para ficar por dentro de todas
-                  atualizações e novidades.
+                  da Nostalgia com uma Rate Baixa. Participe da nossa comunidade
+                  no Discord e fique por dentro.
                 </div>
                 <Link
                   to={Routes.discord}
                   className="slider__content-button flex-cc"
                   target="_blank"
                 >
-                  Acessar Discord
+                  ACESSAR DISCORD
                 </Link>
               </div>
             </div>
@@ -46,7 +45,7 @@ export const Slide = () => {
                   className="slider__content-button flex-cc"
                   target="_blank"
                 >
-                  Acessar Discord
+                  ACESSAR DISCORD
                 </Link>
               </div>
             </div>
